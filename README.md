@@ -1,84 +1,89 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-Here’s a professional and complete `README.md` document tailored for your GitHub project, based on the preview link and code logic from `App.jsx`:
+Sure! Here's the same `README.md` content **without hash (`#`) headings**, using plain text formatting:
 
 ---
 
-# Axios Admin Panel
+**📊 Data Table Management System**
 
-A modern React-based Admin Dashboard for managing products, built with Axios for HTTP requests and styled using Bootstrap and Kaiadmin UI.
+A sleek and dynamic React-based application for managing product data using JSON Server. This project supports full CRUD operations (Create, Read, Update, Delete) and features modern UI styling with Bootstrap and Kaiadmin.
 
-🔗 Live Preview: https://axios-admin-pannel.vercel.app/
-
----
-
-## ✨ Features
-
-* 📦 Product Management (Add, Edit, Delete)
-* 📊 Dashboard Home with visual summary
-* 📝 Form with validation and image upload
-* 📋 Dynamic Table with edit/delete actions
-* 🗃️ Warehouse (Godown) multi-selection
-* 🔄 Axios CRUD operations
-* 💡 Modern UI with [Kaiadmin](https://kaiadmin-lite.netlify.app/) + Bootstrap 5
+**🚀 Live Demo**
+🔗 [https://data-table-project-ten.vercel.app/](https://data-table-project-ten.vercel.app/)
 
 ---
 
-## 📂 Project Structure
+**🛠 Features**
+
+* 📝 Add, update, and delete product records
+* 🔍 Search and filter functionality
+* 📦 Manage product details (name, price, stock, image, description, and warehouse)
+* 🖼 Image upload with preview
+* 💬 Toast notifications for user actions
+* 📊 Line chart component (extendable)
+* 🎨 Styled with Bootstrap and Kaiadmin Admin Template
+* ⚙ JSON Server backend for persistence
+
+---
+
+**📂 Project Structure**
 
 ```
-├── src/
-│   ├── assets/css/           # CSS files (Bootstrap, Fonts, Kaiadmin)
-│   ├── components/           # Aside (Sidebar)
-│   ├── pages/                # Home, Form, Table pages
-│   ├── App.jsx               # Main application with routes and logic
-│   └── main.jsx              # Entry point
+src/
+├── assets/
+│   └── css/          --> Bootstrap and Kaiadmin styles
+├── components/
+│   └── Aside.jsx     --> Sidebar navigation
+├── pages/
+│   ├── Home.jsx      --> Dashboard/landing view with data summary
+│   ├── Form.jsx      --> Product form (add/edit)
+│   └── Table.jsx     --> Product data table view
+├── App.jsx           --> Main app logic and routing
+└── index.js          --> React DOM rendering
 ```
 
 ---
 
-## 🚀 Getting Started
+**⚙ Technologies Used**
 
-### 1. Clone the repository
+React
+React Router DOM
+Axios
+React Toastify
+Bootstrap 5
+Kaiadmin CSS Template
+JSON Server (for local API)
 
-```bash
-git clone https://github.com/your-username/axios-admin-panel.git
-cd axios-admin-panel
+---
+
+**🧪 Setup Instructions**
+
+1. Clone the Repo:
+
+```
+git clone https://github.com/yourusername/data-table-project.git
+cd data-table-project
 ```
 
-### 2. Install dependencies
+2. Install Dependencies:
 
-```bash
+```
 npm install
 ```
 
-### 3. Start the development server
+3. Start JSON Server:
 
-```bash
-npm run dev
+If not installed:
+
+```
+npm install -g json-server
 ```
 
-> ⚠️ **Note**: This app expects a local JSON server running on `http://localhost:3000/products`. Use the following to set it up:
+Start server:
 
-### 4. (Optional) Set up JSON Server for mock API
-
-```bash
-npm install -g json-server
+```
 json-server --watch db.json --port 3000
 ```
 
-Create a simple `db.json` file:
+Example `db.json`:
 
 ```json
 {
@@ -86,36 +91,34 @@ Create a simple `db.json` file:
 }
 ```
 
----
+4. Run the React App:
 
-## 🧩 Routes Overview
+```
+npm run dev
+```
 
-| Route    | Description               |
-| -------- | ------------------------- |
-| `/Home`  | Product Dashboard Summary |
-| `/Form`  | Add / Edit Products       |
-| `/Table` | View, Edit, Delete List   |
+Open `http://localhost:5173` (or the port shown)
 
 ---
 
-## 🛠️ Technologies Used
+**🧑‍💻 Author**
 
-* React
-* Axios
-* Bootstrap 5
-* Kaiadmin Template
-* React Router DOM
+Rudra Gondaliya
+Email: [rudragondaliya@email.com](mailto:rudragondaliya@email.com)
 
 ---
 
-## 📸 Screenshots
+**⭐️ Show your support**
 
-> Add your screenshots here (optional) for Form, Table, and Home UI.
+If you like this project, please star it on GitHub!
+GitHub: [https://github.com/yourusername/data-table-project](https://github.com/rudragondaliya/data-table-project)
+
+---
+
+**📃 License**
+
+This project is licensed under the MIT License.
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
+Let me know if you'd like this exported as a `README.md` file or want to customize it for deployment to GitHub.
