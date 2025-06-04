@@ -101,7 +101,7 @@ Open `http://localhost:5173` (or the port shown)
 **🧑‍💻 Author**
 
 Rudra Gondaliya
-Email: [rudragondaliya@email.com](mailto:gondaliyarudra2516@gmail.com)
+Email: (gondaliyarudra2516@gmail.com)
 
 ---
 
