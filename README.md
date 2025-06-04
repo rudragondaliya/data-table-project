@@ -108,7 +108,7 @@ Email: (gondaliyarudra2516@gmail.com)
 **⭐️ Show your support**
 
 If you like this project, please star it on GitHub!
-GitHub: [https://github.com/yourusername/data-table-project](https://github.com/rudragondaliya/data-table-project)
+GitHub: (https://github.com/rudragondaliya/data-table-project)
 
 ---
 
