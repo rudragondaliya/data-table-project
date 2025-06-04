@@ -1,6 +1,3 @@
-Sure! Here's the same `README.md` content **without hash (`#`) headings**, using plain text formatting:
-
----
 
 **📊 Data Table Management System**
 
